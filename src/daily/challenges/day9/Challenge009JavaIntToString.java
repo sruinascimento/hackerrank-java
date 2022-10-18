@@ -8,12 +8,13 @@ public class Challenge009JavaIntToString {
 
         try {
             int n = sc.nextInt();
-            String s = "" + n;
-
-            if (n == Integer.parseInt(s)) {
-                System.out.println("Good job");
-            } else {
-                System.out.println("Wrong answer.");
+            if (n >= -100 &&  n <= 100){
+                String s = "" + n;
+                if (n == Integer.parseInt(s)) {
+                    System.out.println("Good job");
+                } else {
+                    System.out.println("Wrong answer.");
+                }
             }
         } catch (Exception e) {
             e.printStackTrace();

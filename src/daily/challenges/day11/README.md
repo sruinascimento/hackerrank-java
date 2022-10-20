@@ -1,4 +1,4 @@
-# Problem
+# NumberFormat
 
 Given a [double-precision](https://en.wikipedia.org/wiki/Double-precision_floating-point_format) number, `payment` , denoting an amount of money, use the [NumberFormat](https://docs.oracle.com/javase/8/docs/api/java/text/NumberFormat.html) class' [getCurrencyInstance](https://docs.oracle.com/javase/8/docs/api/java/text/NumberFormat.html#getCurrencyInstance-java.util.Locale-) method to convert `payment`  into the US, Indian, Chinese, and French currency formats. Then print the formatted values as follows:
 

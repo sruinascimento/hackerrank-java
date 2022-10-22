@@ -5,6 +5,7 @@ import java.util.regex.Pattern;
 
 public class Challenge013JavaSubstring {
     public static void main(String[] args) {
+
         Scanner input = new Scanner(System.in);
         String S = input.next();
         int start = input.nextInt();

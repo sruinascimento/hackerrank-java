@@ -2,7 +2,7 @@ package daily.challenges.day12;
 
 import java.util.Scanner;
 
-public class JavaStringIntroduction {
+public class Challenge012JavaStringIntroduction {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String A = scanner.next();

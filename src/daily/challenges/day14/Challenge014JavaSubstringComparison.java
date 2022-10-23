@@ -1,12 +1,18 @@
 package daily.challenges.day14;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Scanner;
 
 public class Challenge014JavaSubstringComparison {
     public static void main(String[] args) {
-        System.out.println(getSmallestAndLargest("welcometojava" ,3));
-//        janelamento("welcometojava" ,3);
+        Scanner input = new Scanner(System.in);
+
+        String s = input.nextLine();
+        int k = input.nextInt();
+
+        // welcometojava 3
+
+        System.out.println(getSmallestAndLargest(s ,k));
+//        janelamento(s ,k);
     }
 
     public static String getSmallestAndLargest(String s, int k) {
@@ -32,11 +38,11 @@ public class Challenge014JavaSubstringComparison {
 
     }
 
-    //Para testar o janelamento
-//    public static void janelamento(String s, int k) {
-//        System.out.println(s.substring(0, k));
-//        for (int i = 1; i <= s.length() - k; i++) {
-//            System.out.println(s.substring(i, i+k));
-//        }
-//    }
+//    Para testar o janelamento
+    public static void janelamento(String s, int k) {
+        System.out.println(s.substring(0, k));
+        for (int i = 1; i <= s.length() - k; i++) {
+            System.out.println(s.substring(i, i+k));
+        }
+    }
 }
